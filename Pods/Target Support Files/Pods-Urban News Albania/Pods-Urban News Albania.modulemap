@@ -1,0 +1,6 @@
+framework module Pods_Urban_News_Albania {
+  umbrella header "Pods-Urban News Albania-umbrella.h"
+
+  export *
+  module * { export * }
+}

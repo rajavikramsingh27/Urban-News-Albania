@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D09CB99B01E2788F681E076 /* Pods_Urban_News_Albania.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38822CCF4294A21553CD376 /* Pods_Urban_News_Albania.framework */; };
+		AE24707E23E202C500CF5CEA /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = AE24707D23E202C500CF5CEA /* gear.png */; };
+		AE24708023E2076F00CF5CEA /* Setting_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE24707F23E2076F00CF5CEA /* Setting_ViewController.swift */; };
+		AEB1DDAC23B8E46B002B2356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB1DDAB23B8E46B002B2356 /* AppDelegate.swift */; };
+		AEB1DDAE23B8E46B002B2356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB1DDAD23B8E46B002B2356 /* ViewController.swift */; };
+		AEB1DDB123B8E46B002B2356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB1DDAF23B8E46B002B2356 /* Main.storyboard */; };
+		AEB1DDB323B8E46C002B2356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB1DDB223B8E46C002B2356 /* Assets.xcassets */; };
+		AEB1DDB623B8E46C002B2356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB1DDB423B8E46C002B2356 /* LaunchScreen.storyboard */; };
+		AEB1DDBE23B8E821002B2356 /* appp.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB1DDBD23B8E821002B2356 /* appp.png */; };
+		AEB1DDC023B8E8C6002B2356 /* urban.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB1DDBF23B8E8C5002B2356 /* urban.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CC761B6BB746F630E8922F6 /* Pods-Urban News Albania.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Urban News Albania.release.xcconfig"; path = "Target Support Files/Pods-Urban News Albania/Pods-Urban News Albania.release.xcconfig"; sourceTree = "<group>"; };
+		AE24707D23E202C500CF5CEA /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		AE24707F23E2076F00CF5CEA /* Setting_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_ViewController.swift; sourceTree = "<group>"; };
+		AEB1DDA823B8E46B002B2356 /* Urban News Albania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Urban News Albania.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB1DDAB23B8E46B002B2356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEB1DDAD23B8E46B002B2356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEB1DDB023B8E46B002B2356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEB1DDB223B8E46C002B2356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEB1DDB523B8E46C002B2356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEB1DDB723B8E46C002B2356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB1DDBD23B8E821002B2356 /* appp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appp.png; sourceTree = "<group>"; };
+		AEB1DDBF23B8E8C5002B2356 /* urban.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = urban.png; sourceTree = "<group>"; };
+		B38822CCF4294A21553CD376 /* Pods_Urban_News_Albania.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Urban_News_Albania.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E6EB228FFE98A5ADBDA2D5 /* Pods-Urban News Albania.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Urban News Albania.debug.xcconfig"; path = "Target Support Files/Pods-Urban News Albania/Pods-Urban News Albania.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEB1DDA523B8E46B002B2356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D09CB99B01E2788F681E076 /* Pods_Urban_News_Albania.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564B28DA6FD6F84BC15BF538 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B38822CCF4294A21553CD376 /* Pods_Urban_News_Albania.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A10CD69A319C656C7781D52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8E6EB228FFE98A5ADBDA2D5 /* Pods-Urban News Albania.debug.xcconfig */,
+				0CC761B6BB746F630E8922F6 /* Pods-Urban News Albania.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AEB1DD9F23B8E46B002B2356 = {
+			isa = PBXGroup;
+			children = (
+				AEB1DDAA23B8E46B002B2356 /* Urban News Albania */,
+				AEB1DDA923B8E46B002B2356 /* Products */,
+				7A10CD69A319C656C7781D52 /* Pods */,
+				564B28DA6FD6F84BC15BF538 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB1DDA923B8E46B002B2356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB1DDA823B8E46B002B2356 /* Urban News Albania.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEB1DDAA23B8E46B002B2356 /* Urban News Albania */ = {
+			isa = PBXGroup;
+			children = (
+				AE24707D23E202C500CF5CEA /* gear.png */,
+				AEB1DDBD23B8E821002B2356 /* appp.png */,
+				AEB1DDBF23B8E8C5002B2356 /* urban.png */,
+				AE24707F23E2076F00CF5CEA /* Setting_ViewController.swift */,
+				AEB1DDAB23B8E46B002B2356 /* AppDelegate.swift */,
+				AEB1DDAD23B8E46B002B2356 /* ViewController.swift */,
+				AEB1DDAF23B8E46B002B2356 /* Main.storyboard */,
+				AEB1DDB223B8E46C002B2356 /* Assets.xcassets */,
+				AEB1DDB423B8E46C002B2356 /* LaunchScreen.storyboard */,
+				AEB1DDB723B8E46C002B2356 /* Info.plist */,
+			);
+			path = "Urban News Albania";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEB1DDA723B8E46B002B2356 /* Urban News Albania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB1DDBA23B8E46C002B2356 /* Build configuration list for PBXNativeTarget "Urban News Albania" */;
+			buildPhases = (
+				1E891634185F87C095E0B8B1 /* [CP] Check Pods Manifest.lock */,
+				AEB1DDA423B8E46B002B2356 /* Sources */,
+				AEB1DDA523B8E46B002B2356 /* Frameworks */,
+				AEB1DDA623B8E46B002B2356 /* Resources */,
+				86E75D6EB5B3A52620AFB3EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Urban News Albania";
+			productName = "Urban News Albania";
+			productReference = AEB1DDA823B8E46B002B2356 /* Urban News Albania.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEB1DDA023B8E46B002B2356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = appentus;
+				TargetAttributes = {
+					AEB1DDA723B8E46B002B2356 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = AEB1DDA323B8E46B002B2356 /* Build configuration list for PBXProject "Urban News Albania" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEB1DD9F23B8E46B002B2356;
+			productRefGroup = AEB1DDA923B8E46B002B2356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEB1DDA723B8E46B002B2356 /* Urban News Albania */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEB1DDA623B8E46B002B2356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB1DDBE23B8E821002B2356 /* appp.png in Resources */,
+				AEB1DDB623B8E46C002B2356 /* LaunchScreen.storyboard in Resources */,
+				AE24707E23E202C500CF5CEA /* gear.png in Resources */,
+				AEB1DDB323B8E46C002B2356 /* Assets.xcassets in Resources */,
+				AEB1DDC023B8E8C6002B2356 /* urban.png in Resources */,
+				AEB1DDB123B8E46B002B2356 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E891634185F87C095E0B8B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Urban News Albania-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86E75D6EB5B3A52620AFB3EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Urban News Albania/Pods-Urban News Albania-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Urban News Albania/Pods-Urban News Albania-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Urban News Albania/Pods-Urban News Albania-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB1DDA423B8E46B002B2356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB1DDAE23B8E46B002B2356 /* ViewController.swift in Sources */,
+				AE24708023E2076F00CF5CEA /* Setting_ViewController.swift in Sources */,
+				AEB1DDAC23B8E46B002B2356 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEB1DDAF23B8E46B002B2356 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB1DDB023B8E46B002B2356 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEB1DDB423B8E46C002B2356 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB1DDB523B8E46C002B2356 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEB1DDB823B8E46C002B2356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEB1DDB923B8E46C002B2356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEB1DDBB23B8E46C002B2356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E6EB228FFE98A5ADBDA2D5 /* Pods-Urban News Albania.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4B73FJ2U9F;
+				INFOPLIST_FILE = "Urban News Albania/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Math-kids.Urban-News-Albania";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEB1DDBC23B8E46C002B2356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CC761B6BB746F630E8922F6 /* Pods-Urban News Albania.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4B73FJ2U9F;
+				INFOPLIST_FILE = "Urban News Albania/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Math-kids.Urban-News-Albania";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEB1DDA323B8E46B002B2356 /* Build configuration list for PBXProject "Urban News Albania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB1DDB823B8E46C002B2356 /* Debug */,
+				AEB1DDB923B8E46C002B2356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB1DDBA23B8E46C002B2356 /* Build configuration list for PBXNativeTarget "Urban News Albania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB1DDBB23B8E46C002B2356 /* Debug */,
+				AEB1DDBC23B8E46C002B2356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEB1DDA023B8E46B002B2356 /* Project object */;
+}
